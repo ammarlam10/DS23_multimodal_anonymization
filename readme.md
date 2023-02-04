@@ -11,7 +11,7 @@
 
 
 ## 📖 Reports
-- Report edit link: [link]()
+- Report link: [link]()
 - Slide link: [link]()
 
 ## References
