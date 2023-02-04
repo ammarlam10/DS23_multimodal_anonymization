@@ -1,0 +1,544 @@
+[    
+
+	{
+        "full_text": "Mr. Leiva flew to LEPPEN on Tuesday morning.",
+        "masked": "{{TITLE}} {{PERSON}} flew to {{GPE}} on {{DATE_TIME}} morning.",
+        "spans": [
+            {
+                "entity_type": "DATE_TIME",
+                "entity_value": "Tuesday",
+                "start_position": 28,
+                "end_position": 35
+            },
+            {
+                "entity_type": "GPE",
+                "entity_value": "LEPPEN",
+                "start_position": 18,
+                "end_position": 24
+            },
+            {
+                "entity_type": "PERSON",
+                "entity_value": "Leiva",
+                "start_position": 4,
+                "end_position": 9
+            },
+            {
+                "entity_type": "TITLE",
+                "entity_value": "Mr.",
+                "start_position": 0,
+                "end_position": 3
+            }
+        ],
+        "template_id": 209,
+        "metadata": null
+    },
+    
+    {
+        "full_text": "She was born on 2/8/1935. Her maiden name is Clark",
+        "masked": "She was born on {{DATE_TIME}}. Her maiden name is {{PERSON}}",
+        "spans": [
+            {
+                "entity_type": "PERSON",
+                "entity_value": "Clark",
+                "start_position": 45,
+                "end_position": 50
+            },
+            {
+                "entity_type": "DATE_TIME",
+                "entity_value": "2/8/1935",
+                "start_position": 16,
+                "end_position": 24
+            }
+        ],
+        "template_id": 76,
+        "metadata": null
+    	},
+    
+        {
+        "full_text": "Date: 1978-04-13 12:20:39\nName: Toshimi Arata\nPhone: 0490 75 40 81",
+        "masked": "Date: {{DATE_TIME}}\nName: {{PERSON}}\nPhone: {{PHONE_NUMBER}}",
+        "spans": [
+            {
+                "entity_type": "PHONE_NUMBER",
+                "entity_value": "0490 75 40 81",
+                "start_position": 53,
+                "end_position": 66
+            },
+            {
+                "entity_type": "PERSON",
+                "entity_value": "Toshimi Arata",
+                "start_position": 32,
+                "end_position": 45
+            },
+            {
+                "entity_type": "DATE_TIME",
+                "entity_value": "1978-04-13 12:20:39",
+                "start_position": 6,
+                "end_position": 25
+            }
+        ],
+        "template_id": 172,
+        "metadata": null
+    },
+    
+       {
+        "full_text": "Ms. Jones flew to Bessastaðahreppur on Saturday morning.",
+        "masked": "{{TITLE}} {{PERSON}} flew to {{GPE}} on {{DATE_TIME}} morning.",
+        "spans": [
+            {
+                "entity_type": "DATE_TIME",
+                "entity_value": "Saturday",
+                "start_position": 39,
+                "end_position": 47
+            },
+            {
+                "entity_type": "GPE",
+                "entity_value": "Bessastaðahreppur",
+                "start_position": 18,
+                "end_position": 35
+            },
+            {
+                "entity_type": "PERSON",
+                "entity_value": "Jones",
+                "start_position": 4,
+                "end_position": 9
+            },
+            {
+                "entity_type": "TITLE",
+                "entity_value": "Ms.",
+                "start_position": 0,
+                "end_position": 3
+            }
+        ],
+        "template_id": 209,
+        "metadata": null
+    },
+    {
+        "full_text": "Mr. Pavlović flew to STAXROITH on Monday morning.",
+        "masked": "{{TITLE}} {{PERSON}} flew to {{GPE}} on {{DATE_TIME}} morning.",
+        "spans": [
+            {
+                "entity_type": "DATE_TIME",
+                "entity_value": "Monday",
+                "start_position": 34,
+                "end_position": 40
+            },
+            {
+                "entity_type": "GPE",
+                "entity_value": "STAXROITH",
+                "start_position": 21,
+                "end_position": 30
+            },
+            {
+                "entity_type": "PERSON",
+                "entity_value": "Pavlović",
+                "start_position": 4,
+                "end_position": 12
+            },
+            {
+                "entity_type": "TITLE",
+                "entity_value": "Mr.",
+                "start_position": 0,
+                "end_position": 3
+            }
+        ],
+        "template_id": 209,
+        "metadata": null
+    },
+
+    {
+        "full_text": "The Clark, Romero and Hall Orchestra was founded in 1973. Since then, it has grown from a volunteer community orchestra to a fully professional orchestra serving Southern Poland",
+        "masked": "The {{ORGANIZATION}} Orchestra was founded in {{DATE_TIME}}. Since then, it has grown from a volunteer community orchestra to a fully professional orchestra serving Southern {{GPE}}",
+        "spans": [
+            {
+                "entity_type": "GPE",
+                "entity_value": "Poland",
+                "start_position": 171,
+                "end_position": 177
+            },
+            {
+                "entity_type": "DATE_TIME",
+                "entity_value": "1973",
+                "start_position": 52,
+                "end_position": 56
+            },
+            {
+                "entity_type": "ORGANIZATION",
+                "entity_value": "Clark, Romero and Hall",
+                "start_position": 4,
+                "end_position": 26
+            }
+        ],
+        "template_id": 118,
+        "metadata": null
+    },
+    {
+        "full_text": "Mrs. Schwarz flew to Coles on Sunday morning.",
+        "masked": "{{TITLE}} {{PERSON}} flew to {{GPE}} on {{DATE_TIME}} morning.",
+        "spans": [
+            {
+                "entity_type": "DATE_TIME",
+                "entity_value": "Sunday",
+                "start_position": 30,
+                "end_position": 36
+            },
+            {
+                "entity_type": "GPE",
+                "entity_value": "Coles",
+                "start_position": 21,
+                "end_position": 26
+            },
+            {
+                "entity_type": "PERSON",
+                "entity_value": "Schwarz",
+                "start_position": 5,
+                "end_position": 12
+            },
+            {
+                "entity_type": "TITLE",
+                "entity_value": "Mrs.",
+                "start_position": 0,
+                "end_position": 4
+            }
+        ],
+        "template_id": 209,
+        "metadata": null
+    },    
+    
+        {
+        "full_text": "Zoolander is a 2021 Norwegian action-comedy film directed by Joakim Westgård and starring Westgård",
+        "masked": "Zoolander is a {{DATE_TIME}} {{NRP}} action-comedy film directed by {{PERSON}} and starring {{PERSON}}",
+        "spans": [
+            {
+                "entity_type": "PERSON",
+                "entity_value": "Westgård",
+                "start_position": 90,
+                "end_position": 98
+            },
+            {
+                "entity_type": "PERSON",
+                "entity_value": "Joakim Westgård",
+                "start_position": 61,
+                "end_position": 76
+            },
+            {
+                "entity_type": "NRP",
+                "entity_value": "Norwegian",
+                "start_position": 20,
+                "end_position": 29
+            },
+            {
+                "entity_type": "DATE_TIME",
+                "entity_value": "2021",
+                "start_position": 15,
+                "end_position": 19
+            }
+        ],
+        "template_id": 122,
+        "metadata": null
+    },
+    {
+        "full_text": "Ms. Austin flew to RYSSBY on Sunday morning.",
+        "masked": "{{TITLE}} {{PERSON}} flew to {{GPE}} on {{DATE_TIME}} morning.",
+        "spans": [
+            {
+                "entity_type": "DATE_TIME",
+                "entity_value": "Sunday",
+                "start_position": 29,
+                "end_position": 35
+            },
+            {
+                "entity_type": "GPE",
+                "entity_value": "RYSSBY",
+                "start_position": 19,
+                "end_position": 25
+            },
+            {
+                "entity_type": "PERSON",
+                "entity_value": "Austin",
+                "start_position": 4,
+                "end_position": 10
+            },
+            {
+                "entity_type": "TITLE",
+                "entity_value": "Ms.",
+                "start_position": 0,
+                "end_position": 3
+            }
+        ],
+        "template_id": 209,
+        "metadata": null
+    },
+    
+    
+    {
+        "full_text": "Järvilehto began writing as a teenager, publishing her first story, \"The Dimensions of a Shadow\", in 2004 while studying English and journalism at the University of VIERHÖF.",
+        "masked": "{{PERSON}} began writing as a teenager, publishing her first story, \"The Dimensions of a Shadow\", in {{DATE_TIME}} while studying English and journalism at the University of {{GPE}}.",
+        "spans": [
+            {
+                "entity_type": "GPE",
+                "entity_value": "VIERHÖF",
+                "start_position": 165,
+                "end_position": 172
+            },
+            {
+                "entity_type": "DATE_TIME",
+                "entity_value": "2004",
+                "start_position": 101,
+                "end_position": 105
+            },
+            {
+                "entity_type": "PERSON",
+                "entity_value": "Järvilehto",
+                "start_position": 0,
+                "end_position": 10
+            }
+        ],
+        "template_id": 127,
+        "metadata": null
+    },
+    
+   {
+        "full_text": "It's like that since 8/14/1996",
+        "masked": "It's like that since {{DATE_TIME}}",
+        "spans": [
+            {
+                "entity_type": "DATE_TIME",
+                "entity_value": "8/14/1996",
+                "start_position": 21,
+                "end_position": 30
+            }
+        ],
+        "template_id": 79,
+        "metadata": null
+    },
+    {
+        "full_text": "We'll meet Thursday at Incadence, 08428 Rue de Piétrain 371, Noorderwijk",
+        "masked": "We'll meet {{DATE_TIME}} at {{ORGANIZATION}}, {{STREET_ADDRESS}} {{STREET_ADDRESS}}, {{GPE}}",
+        "spans": [
+            {
+                "entity_type": "GPE",
+                "entity_value": "Noorderwijk",
+                "start_position": 61,
+                "end_position": 72
+            },
+            {
+                "entity_type": "STREET_ADDRESS",
+                "entity_value": "Rue de Piétrain 371",
+                "start_position": 40,
+                "end_position": 59
+            },
+            {
+                "entity_type": "STREET_ADDRESS",
+                "entity_value": "08428",
+                "start_position": 34,
+                "end_position": 39
+            },
+            {
+                "entity_type": "ORGANIZATION",
+                "entity_value": "Incadence",
+                "start_position": 23,
+                "end_position": 32
+            },
+            {
+                "entity_type": "DATE_TIME",
+                "entity_value": "Thursday",
+                "start_position": 11,
+                "end_position": 19
+            }
+        ],
+        "template_id": 158,
+        "metadata": null
+    },
+    {
+        "full_text": "You said your email is BozenaDabrowski@superrito.com. Is that correct?",
+        "masked": "You said your email is {{EMAIL_ADDRESS}}. Is that correct?",
+        "spans": [
+            {
+                "entity_type": "EMAIL_ADDRESS",
+                "entity_value": "BozenaDabrowski@superrito.com",
+                "start_position": 23,
+                "end_position": 52
+            }
+        ],
+        "template_id": 62,
+        "metadata": null
+    },
+    {
+        "full_text": "Lara  Fiorentino\n\nDining room and cafeteria attendant\n\nPersonal Info:\nPhone:\n(71) 4233-6306\n\nE-mail:\nLaraFiorentino@armyspy.com\n\nWebsite:\nhttps://www.HowDangerous.be/\n\nAddress:\n87645 22 Talga Court Apt. 331\nKaster\n, VWV\n 04494.",
+        "masked": "{{PERSON}}\n\n{{TITLE}}\n\nPersonal Info:\nPhone:\n{{PHONE_NUMBER}}\n\nE-mail:\n{{EMAIL_ADDRESS}}\n\nWebsite:\n{{url}}\n\nAddress:\n{{STREET_ADDRESS}}.",
+        "spans": [
+            {
+                "entity_type": "STREET_ADDRESS",
+                "entity_value": "87645 22 Talga Court Apt. 331\nKaster\n, VWV\n 04494",
+                "start_position": 177,
+                "end_position": 226
+            },
+            {
+                "entity_type": "DOMAIN_NAME",
+                "entity_value": "https://www.HowDangerous.be/",
+                "start_position": 138,
+                "end_position": 166
+            },
+            {
+                "entity_type": "EMAIL_ADDRESS",
+                "entity_value": "LaraFiorentino@armyspy.com",
+                "start_position": 101,
+                "end_position": 127
+            },
+            {
+                "entity_type": "PHONE_NUMBER",
+                "entity_value": "(71) 4233-6306",
+                "start_position": 77,
+                "end_position": 91
+            },
+            {
+                "entity_type": "TITLE",
+                "entity_value": "Dining room and cafeteria attendant",
+                "start_position": 18,
+                "end_position": 53
+            },
+            {
+                "entity_type": "PERSON",
+                "entity_value": "Lara  Fiorentino",
+                "start_position": 0,
+                "end_position": 16
+            }
+        ],
+        "template_id": 188,
+        "metadata": null
+    },
+   {
+        "full_text": "Please send my portfolio to this email AsukaKawano@dayrep.com",
+        "masked": "Please send my portfolio to this email {{EMAIL_ADDRESS}}",
+        "spans": [
+            {
+                "entity_type": "EMAIL_ADDRESS",
+                "entity_value": "AsukaKawano@dayrep.com",
+                "start_position": 39,
+                "end_position": 61
+            }
+        ],
+        "template_id": 51,
+        "metadata": null
+    }
+        {
+        "full_text": "Jouko is from Gradiant Research LLC",
+        "masked": "{{PERSON}} is from {{ORGANIZATION}}",
+        "spans": [
+            {
+                "entity_type": "ORGANIZATION",
+                "entity_value": "Gradiant Research LLC",
+                "start_position": 14,
+                "end_position": 35
+            },
+            {
+                "entity_type": "PERSON",
+                "entity_value": "Jouko",
+                "start_position": 0,
+                "end_position": 5
+            }
+        ],
+        "template_id": 86,
+        "metadata": null
+    },
+        {
+        "full_text": "The Vide A. Persson version recorded for Capital Cube became the first celebrity recording by a classical musician to sell one million copies. The song was awarded the seventh gold disc ever granted.",
+        "masked": "The {{PERSON}} version recorded for {{ORGANIZATION}} became the first celebrity recording by a classical musician to sell one million copies. The song was awarded the seventh gold disc ever granted.",
+        "spans": [
+            {
+                "entity_type": "ORGANIZATION",
+                "entity_value": "Capital Cube",
+                "start_position": 41,
+                "end_position": 53
+            },
+            {
+                "entity_type": "PERSON",
+                "entity_value": "Vide A. Persson",
+                "start_position": 4,
+                "end_position": 19
+            }
+        ],
+        "template_id": 113,
+        "metadata": null
+    },
+    
+    {
+        "full_text": "Jouko is from Gradiant Research LLC",
+        "masked": "{{PERSON}} is from {{ORGANIZATION}}",
+        "spans": [
+            {
+                "entity_type": "ORGANIZATION",
+                "entity_value": "Gradiant Research LLC",
+                "start_position": 14,
+                "end_position": 35
+            },
+            {
+                "entity_type": "PERSON",
+                "entity_value": "Jouko",
+                "start_position": 0,
+                "end_position": 5
+            }
+        ],
+        "template_id": 86,
+        "metadata": null
+    },
+    {
+        "full_text": "In case of my child's account, we need to add Thelma Mitchell as guardian",
+        "masked": "In case of my child's account, we need to add {{PERSON}} as guardian",
+        "spans": [
+            {
+                "entity_type": "PERSON",
+                "entity_value": "Thelma Mitchell",
+                "start_position": 46,
+                "end_position": 61
+            }
+        ],
+        "template_id": 4,
+        "metadata": null
+    },
+    
+    {
+        "full_text": "I'm Katie E Miles, originally from Mavčiče, and i'm 82 y/o.",
+        "masked": "I'm {{PERSON}}, originally from {{GPE}}, and i'm {{AGE}} y/o.",
+        "spans": [
+            {
+                "entity_type": "AGE",
+                "entity_value": "82",
+                "start_position": 52,
+                "end_position": 54
+            },
+            {
+                "entity_type": "GPE",
+                "entity_value": "Mavčiče",
+                "start_position": 35,
+                "end_position": 42
+            },
+            {
+                "entity_type": "PERSON",
+                "entity_value": "Katie E Miles",
+                "start_position": 4,
+                "end_position": 17
+            }
+        ],
+        "template_id": 202,
+        "metadata": null
+    },
+   {
+        "full_text": "You said your email is BozenaDabrowski@superrito.com. Is that correct?",
+        "masked": "You said your email is {{EMAIL_ADDRESS}}. Is that correct?",
+        "spans": [
+            {
+                "entity_type": "EMAIL_ADDRESS",
+                "entity_value": "BozenaDabrowski@superrito.com",
+                "start_position": 23,
+                "end_position": 52
+            }
+        ],
+        "template_id": 62,
+        "metadata": null
+    },
+    
+    
+ ]
+    
