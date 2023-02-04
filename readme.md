@@ -15,5 +15,5 @@
 - Slide link: [link]()
 
 ## References
-- https://github.com/microsoft/presidio-research
-- https://github.com/glassonion1/anonypy
+- Text https://github.com/microsoft/presidio-research
+- Tabular https://github.com/glassonion1/anonypy
