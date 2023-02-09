@@ -11,8 +11,7 @@
 
 
 ## 📖 Reports
-- Report link: [link]()
-- Slide link: [link]()
+- Report link: [link](https://github.com/ammarlam10/DS23_multimodal_anonymization/report.pdf)
 
 ## References
 - Text https://github.com/microsoft/presidio-research
